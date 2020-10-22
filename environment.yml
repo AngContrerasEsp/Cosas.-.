@@ -1,4 +1,8 @@
 name: ejemplo-entorno
+
+conda activate ejemplo-entorno
+conda env export --from-history -f environment.yml
+
 channels:
   - conda-forge
 dependencies:
