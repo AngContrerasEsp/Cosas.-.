@@ -1,0 +1,12 @@
+name: ejemplo-entorno
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - ipywidgets
+  - seaborn
+  - pandas
+  - rise
+  - jupyterthemes
+  - jupyter_contrib_nbextensions
